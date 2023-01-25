@@ -1,0 +1,37 @@
+body{
+    color:#000;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+section{
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 10px 0 10px;
+}
+
+/* Typography */
+h1, h3{
+    font-weight: 900;
+    line-height: 150%;
+}
+h1{
+    font-size: 40px;
+    width: 960px;
+}
+h3{
+    font-size: 24px;
+}
+
+/* flex */
+header, main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    justify-content: space-between;
+}
